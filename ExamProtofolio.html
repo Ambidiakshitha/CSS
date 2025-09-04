@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1 id="Heading1">Ambidi Akshitha Web Protofoil</h1>
+        <p><i id="paragraph1">Showcasing HTML Skills using Tables</i></p>
+        <a href="#About" id="about">About</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#Skills" id="skills">Skills</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#Projects" id="projects">Projects</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#Contact" id="contact">Contact</a>
+    </center>
+    <table width="100%" cellspacing="0" cellpadding="10" border="1" >
+        <tr>
+            <td colspan="3" id="About">
+                <h3 id="aboutme">👤About Me </h3>
+                <p id="para1">Hello! I'm <b id="name">Akshitha</b>,a passionate web developer. I love building semantic, accessible, and responsive websites using core web technologies.</p>
+                <p id="para2">I specialize in front-end development, especially HTML, CSS, and JavaScript.</p>
+            </td>
+            <td>
+                <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/original/user-icon-on-transparent-background-free-png.png" width="300" alt="Image">
+            </td>
+        </tr>
+    </table>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td id="Skills">
+                <h3>🎯Skills</h3>
+                <ul>
+                    <li>HTML / CSS</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                    <li>Git & GitHub</li>
+                </ul>
+                <h3>📊 Skill Levels</h3>
+            <table border="1" cellspacing="0" cellpadding="10" width="10">
+                <tr>
+                    <td>Skills</td>
+                    <td>Level</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Advance</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+            </td>
+        <td id="Projects">
+            <h3>📁 Projects</h3>
+            <ol>
+                <li><b>Portfolio Website</b> – My personal portfolio built using pure HTML and CSS.</li>
+                <li><b>Twitter Sentiment Analysis</b>– A machine learning project used to determine the tweets in Twitter.</li>
+                <li><b>Weather App</b>– A real-time weather dashboard using APIs.</li>
+            </ol>
+            <h3>Screenshot</h3>
+            <img src="./images/{47075E9F-037A-4924-AF25-D5CA1A965D93}.png" alt="Project previews" width="500">
+        </td>   
+    </tr>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td id="Contact">
+                <form action="./submit.html">
+                <h3>Contact Me</h3>
+                <label for="First Name">First Name:</label>
+                <input type="text" name="First Name">
+                <br>
+                <br>
+                <label for="E Mail">E Mail:</label>
+                <input type="mail" name="E Mail">
+                <br>
+                <br>
+                <label for="Gender">Gender:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender">
+                <label for="FeMale">FeMale</label>
+                <input type="radio" name="Gender">
+                <br><br>
+                <label for="Service">Service Intersted:</label>
+                &nbsp; &nbsp; 
+                <label for="Web Design">Web Design</label>
+                <input type="checkbox" name="Service">
+                <label for="SEO">SEO</label>
+                <input type="checkbox" name="Service">
+                <br><br>
+                <label for="Country">Country:</label>
+                <select name="Country" id="Country">
+                    <option value="">USA</option>
+                    <option value="">UK</option>
+                    <option value="">India</option>
+                </select>
+                <br><br>
+                <label for="Message">Message:</label>
+                <textarea name="Message" id="Message"></textarea>
+                <br><br>
+                <button>Send</button>
+                <button>Clear</button>
+                </form>   
+            </td>
+        </tr>
+    </table>
+    </table>
+    <center id="last" >
+        <p>Last Updated: August 13, 2025</p>
+        <p >Created by Akshitha</p>
+        Email:<a href="">aambidiakshitha@gmail.com</a><br><br>
+        Website: <a href="" >example.com</a>
+    </center>
+</body>
+</html>
