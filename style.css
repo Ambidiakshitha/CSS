@@ -1,0 +1,29 @@
+*{
+    background-color:lightcyan;
+    color: black;
+}
+h3{
+    color: darkblue;
+}
+#Heading1
+{
+    color:darkblue;
+}
+#about,#skills,#contact,#projects{
+    color:darkred;
+}
+p{
+    color:darkslateblue;
+}
+td{
+    color: darkred;
+}
+li{
+    color:darkslategray;
+}
+ol{
+    color: darkslategrey;
+}
+button{
+    color: red;
+}
