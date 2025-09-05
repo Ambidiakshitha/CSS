@@ -1,0 +1,108 @@
+*{
+    background-color:lightcoral;
+    padding:0;
+    margin:0;
+}
+.course{
+    background-color: linen;
+    /* color: black; */
+    padding:20px;
+    width:500px;
+    border: 5px darkred groove;
+    margin: 20px auto;
+}
+.HTML{
+    /* text-align: center; */
+    background-color:linen;
+    padding:5px;
+    width: 1000px;;
+    border: 5px darkmagenta groove;
+    margin: 10px;
+    /* align-items: center; */
+}
+.CSS{
+    /* text-align: center; */
+    background-color:lightblue;
+    padding:5px;
+    width: 1000px;;
+    border: 5px darkmagenta groove;
+    margin: 10px;
+    /* align-items: center; */
+}
+.SQL{
+    /* text-align: center; */
+    background-color:lightpink;
+    padding:5px;
+    width: 1000px;;
+    border: 5px darkmagenta groove;
+    margin: 10px;
+    /* align-items: center; */
+}
+.PYTHON{
+    /* text-align: center; */
+    background-color:lightsteelblue;
+    padding:5px;
+    width: 1000px;;
+    border: 5px darkmagenta groove;
+    margin: 10px;
+    /* align-items: center; */
+}
+.NODEJS{
+    /* text-align: center; */
+    background-color:lightgray;
+    padding:5px;
+    width: 1000px;;
+    border: 5px darkmagenta groove;
+    margin: 10px;
+    /* align-items: center; */
+}
+
+/* .Image1{
+    background-color:lightcyan;
+    padding:20px;
+    width:3500pz;
+    border: 5px red groove;
+    margin: 20px;
+} */
+
+h1{
+    background-color:linen;
+    padding:5px;
+    width: 400px;;
+    border: 5px darkmagenta groove;
+    margin: 10px;
+}
+p{
+   background-color:lightcyan;
+    padding:20px;
+    width: 900px;;
+    border: 5px greenyellow groove;
+    margin: 20px; 
+}
+img{
+   background-color:lightcyan;
+    padding:20px;
+    width:3500pz;
+    border: 5px red groove;
+    margin: 20px; 
+}
+.Html{
+    background-color: darkcyan;
+    border: 5px black groove;
+}
+.Css{
+    background-color: darkseagreen;
+    border: 5px black groove;
+}
+.Sql{
+   background-color: violet;
+    border: 5px black groove;
+}
+.Python{
+    background-color: darkturquoise;
+    border: 5px black groove;
+}
+.Nodejs{
+    background-color: darkslateblue;
+    border: 5px black groove;
+}
